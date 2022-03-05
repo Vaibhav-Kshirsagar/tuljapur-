@@ -1,0 +1,121 @@
+body{
+    background-color: bisque;
+}
+.main-heading{
+    text-align: center; 
+    font-size: 100px;
+} 
+
+ .coner-image{        /* here i used data to make image circular. */
+    width: 200px; 
+    height: 200px;
+    float: left;
+    margin-left: 125px;    
+    margin-top: 20px;
+    border-radius: 100%;
+    overflow: hidden;
+    background-color: blue;
+} 
+#coner-image-2{
+    /* position: relative;
+    top: -16px;
+    right: -706px; */ 
+    position: absolute;
+    top: 0px;
+    right: 100px;
+} 
+#coner-image-1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+} 
+.para-1,.para-2,.para-3,.videos,.photos{
+    width: 70%; 
+    text-align: left; 
+    margin: auto; 
+    text-indent: 50px;
+    word-spacing: normal;
+    font-size: 20px;
+    
+}  
+
+p{
+    width: 70%; 
+    text-align: left; 
+    margin: auto; 
+    word-spacing: normal; 
+    font-size: 25px; 
+    font-weight: bolder;
+} 
+.make-para{
+    text-indent: 50px;
+} 
+.videos-views{
+    width: 70%; 
+    text-align: left; 
+    margin: auto; 
+    word-spacing: normal; 
+    font-size: 20px; 
+    font-weight: bolder;
+}
+.video-gfg{
+    background: url("https://www.youtube.com/watch?v=Xe3hBenTTiY");
+    height: 200px;
+    width: 200px;
+
+} 
+.videos-aarti{
+   margin: 40px;
+   padding: 40px;  
+   margin-top: 5px; 
+   margin-bottom: 5px;
+} 
+.aarti,.full-viwe-section{
+    width: 70%; 
+    text-align: left; 
+    margin: auto; 
+    word-spacing: normal; 
+    font-size: 20px; 
+    font-weight: bolder;
+}
+#photos{
+    margin-left: 20%;
+    color: black;
+    background-color: rgb(99, 192, 99);
+    font-weight: bold;
+    padding: 0.5%;
+} 
+#videos{
+    margin-left: 5%;
+    color: black;
+    background-color: rgb(99, 192, 99);
+    font-weight: bold;
+    padding: 0.5%;
+      
+}
+#Street{
+    margin-left: 5%;
+    color: black;
+    background-color: rgb(99, 192, 99);
+    font-weight: bold;
+    padding: 0.5%;
+}
+#Hotels{
+    margin-left: 5%;
+    color: black;
+    background-color: rgb(99, 192, 99);
+    font-weight: bold;
+    padding: 0.5%;
+}
+#Sattelite{
+    margin-left: 5%;
+    color: black;
+    background-color: rgb(99, 192, 99);
+    font-weight: bold;
+    padding: 0.5%;
+}
+.extra{
+    text-decoration: none;
+    color: black;
+    font-weight:bolder;
+}
